@@ -14,7 +14,7 @@ def main():
   if args.do == 'graph':
     graph()
     
-  if args.do == 'useModel':
+  elif args.do == 'useModel':
     useModel()
 
 if __name__ == '__main__':
